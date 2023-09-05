@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ArcadeClassic, serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+}
+
+/* Style the title */
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: #85C6EB; /* Light Blue text color */
+}
+
+/* Style the trading chart container */
+#trading_chart {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: transparent; /* No background color for the chart */
+}
+
+/* Style the buttons */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #007BFF; /* Blue button background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+font-family: ArcadeClassic, serif;
+}
+
+/* Style the output boxes */
+output {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: #FFFF99; /* Light Yellow background */
+    color: #333; /* Dark Gray text color */
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+/* CSS styles for the chart container */
+.chart-container {
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background-color: transparent; /* No background color for the chart */
+}
+
+/* Remove gridlines */
+.chart-container .chartjs-size-monitor,
+.chart-container .chartjs-size-monitor-expand,
+.chart-container .chartjs-size-monitor-shrink {
+    display: none;
+}
+
+/* Style the line chart trend line */
+.chart-container .chartjs-line {
+    border-color: #006400; /* Dark Green trend line color */
+    background-color: transparent;
+}
+
+/* Style the legend */
+.chart-container .chartjs-legend {
+    display: none;
+}
+
+/* Bold X and Y axes with white color */
+.chart-container .chartjs-x-axis,
+.chart-container .chartjs-y-axis {
+    font-weight: bold;
+    color: #85C6EB; /* White color for axis markers and lines */
+}
+
+/* Quantity boxes with drop shadow and dark blue border */
+.quantity-box {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #FFFF99; /* Light Yellow background */
+    color: #333; /* Dark Gray text color */
+    border: 2px solid #0000CD; /* Dark Blue border */
+    box-shadow: 4px 4px 6px rgba(133,198,235,0.1); /* Drop shadow */
+    margin: 0 10px;
+}
+
+/* Position the quantity boxes */
+.quantity-bought {
+    margin-right: 10px;
+}
+
+.quantity-sold {
+    margin-left: 10px;
+}

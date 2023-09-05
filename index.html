@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Trading Simulator</h1>
+    <div class="chart-container">
+        <canvas id="trading_chart"></canvas>
+    </div>
+    <button id="startSimulation">Start Simulation</button>
+    <button id="stopSimulation">Stop Simulation</button>
+    <button id="buyButton">Buy</button>
+    <input type="number" id="buyQuantity" placeholder="Quantity"> <!-- Updated ID -->
+    <button id="sellButton">Sell</button>
+    <input type="number" id="sellQuantity" placeholder="Quantity"> <!-- Updated ID -->
+    <output id="buyOutput"></output>
+    <output id="differenceOutput"></output>
+    <output id="sellOutput"></output>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
